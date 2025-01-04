@@ -28,8 +28,8 @@ export const User1 = () => {
     <div className="w-full md:w-[80vw] lg:w-[60vw] mx-auto h-[70vh]">
       <h2 className="text-2xl text-center font-bold py-8">User 1</h2>
       <div className="flex justify-evenly flex-wrap gap-10 w-full lg:w-[90%]">
-        <Bedroom className="w-full md:w-1/2 " />
-        <Kitchen className="w-full md:w-1/2 " />
+        <Bedroom className="w-1/2 " />
+        <Kitchen className="w-1/2" />
       </div>
       <div className="flex justify-center gap-4 mt-6">
         <MyButton
